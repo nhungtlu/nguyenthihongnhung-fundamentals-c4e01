@@ -1,0 +1,8 @@
+{% if username in Usesr %}
+        <h1>Welcome back</h1>
+        <h2>name: {{ Usesr[username]["name"] }}</h2>
+        <h3>age: {{ Usesr[username]["age"] }}</h3>
+        
+    {% else %}
+        <h1>username doesn't exist</h1>
+{%endif%}

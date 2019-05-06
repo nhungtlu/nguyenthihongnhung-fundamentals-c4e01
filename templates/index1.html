@@ -1,0 +1,13 @@
+<p><strong>
+    {% if ( BMI < 16 )%}
+    <p>'Severely underweight'</p>
+{% elif ( 16 <= BMI < 18.5)%}
+    <p> ' Underweight'</p>
+{%elif (18.5 <= BMI < 25)%}
+    <p>'Normal'</p>
+{%elif (25 <= BMI < 30)%}
+    <p>'Overweight'</p>
+{%else%}
+    <p>'Obese'</p>
+{%endif%}
+</strong></p>
